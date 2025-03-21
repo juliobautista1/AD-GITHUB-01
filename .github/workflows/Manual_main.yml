@@ -12,7 +12,7 @@ jobs:
       run: echo "¡Hola! Este es un flujo de trabajo de prueba ejecutado manualmente."
     - name: Checkout código
       uses: actions/checkout@v2
-        repository: juliobautista1/AD-GITHUB-01/
-        ref: main
+        repository:juliobautista1/AD-GITHUB-01
+        ref:main
     - name: Cat de archivo llamado prueba
       run: cat listado.txt
